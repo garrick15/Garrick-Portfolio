@@ -1,15 +1,42 @@
 <!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
+	<style>
+		.timeline-item {
+			border-left: 2px solid #4c5c96;
+			padding-left: 20px;
+			margin-bottom: 30px;
+			position: relative;
+		}
+		.timeline-item::before {
+			content: '';
+			position: absolute;
+			left: -7px;
+			top: 0;
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			background: #4c5c96;
+		}
+		.timeline-date {
+			font-size: 0.9em;
+			color: #a1a1a1;
+			margin-bottom: 5px;
+		}
+		.school-logo {
+			width: 40px;
+			height: 40px;
+			float: right;
+			border-radius: 4px;
+		}
+	</style>
+
 <html>
 	<head>
 		<title>Generic - Solid State by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" href="images/mission.jpg">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -44,8 +71,34 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Background</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<!-- <div>
+									<img src="images/profile.jpg" alt="Profile Picture">
+								</div> -->
+
+								<div>
+									<h2>Background</h2>
+									<p>Software Developer | Computer Science [Artificial Intelligence & Data Science] | Student</p>
+
+									<p>
+										A passionate Software Engineering graduate with experience in web development, 
+										backend systems, and IT operations. Skilled in PHP (Laravel), Java, and database 
+										management, with a strong interest in building efficient and user-focused solutions.
+									</p>
+
+									<ul class="icons">
+										<li>
+											<a href="https://github.com/garrick15" class="icon brands fa-github" target="_blank">
+												<span class="label">GitHub</span>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.linkedin.com/in/garrick-low/" class="icon brands fa-linkedin-in" target="_blank">
+												<span class="label">LinkedIn</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+
 							</div>
 						</header>
 
@@ -53,30 +106,52 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									<h3 class="major">Education - language - skills (soft, hard) - hackathon</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+								<h3 class="major">Education</h3>
+								
+								<div class="education-timeline">
+									
 
-									<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+									<div class="timeline-item">
+										<span class="timeline-date">Feb 2025 – Present</span>
+										<h4>Taylor's University</h4>
+										<p><strong>Bachelor's degree, Computer Science in Artificial Intelligence</strong></p>
+									</div>
 
-									<h3 class="major">Resume</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<div class="timeline-item">
+										<span class="timeline-date">Jul 2022 – Dec 2024</span>
+										<h4>Asia Pacific University of Technology and Innovation (APU / APIIT)</h4>
+										<p><strong>Diploma of Education, Information and Communication Technology in Software Engineering</strong></p>
+									</div>
 
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<!-- <article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article> -->
-									</section>
-
+									<div class="timeline-item">
+										<span class="timeline-date">2017 – 2021</span>
+										<h4>Tsun Jin High School</h4>
+										<p><strong>Malaysian Certificate of Education (SPM)</strong></p>
+									</div>
 								</div>
+
+								<br>
+
+								<div>
+									<h3 class="major">Achievement & Certifications</h3>
+										<h4>Achievement</h4>
+										<p>Hackathon · ImagineHack 2025</p>
+
+										<h4>Certification</h4>
+										<p>CCNAv7: Introduction to Networks</p>
+								</div>
+
+								<br>
+
+								<h3 class="major">Resume</h3>
+								<p>Click the button below to view or download my full professional resume in PDF format.</p>
+								<ul class="actions">
+									<li><a href="#" class="button primary">Download CV</a></li>
+								</ul>
+
+								</section>
+
+							</div>
 							</div>
 
 					</section>
